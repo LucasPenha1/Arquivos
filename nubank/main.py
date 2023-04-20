@@ -53,5 +53,6 @@ def update_output_1(value):
     elif value == 'Todos gastos':
         return fig_date(df), fig_title(df), fig_categoria(df)
     return fig_date(df), fig_title(df), fig_categoria(df)
+
 if __name__ == '__main__':
     app.run_server(debug=True)
